@@ -147,13 +147,7 @@ Calculadora digital online desenvolvida utilizando linguagem css e javascript
 	document.getElementById('resultado').innerHTML = "Nada..." 
 	} 
 	} 
-	
-	
-	
 	</script> 
-	
-	
-	
 	</body> 
 	</html>
 
