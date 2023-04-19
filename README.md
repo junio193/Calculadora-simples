@@ -106,7 +106,7 @@ function calcular()
 </head>
 <body>
     <div class="fundo">
-        <h1>Calculadora Simples</h1>
+        <h1>CALCULADORA SIMPLES</h1>
         <div class="calculadora">
             <h2>Calculadora digital online</i></h2>
             <p id="resultado"></p>
