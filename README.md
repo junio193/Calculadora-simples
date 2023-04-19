@@ -9,7 +9,9 @@ Calculadora digital online desenvolvida utilizando linguagem css e javascript
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
-    <style>
+    
+
+<style>
 
 
 *{
@@ -58,57 +60,27 @@ Calculadora digital online desenvolvida utilizando linguagem css e javascript
     font-size: 25px;
     color: black;
     text-align: right;
-    padding: 5px;
+padding: 5px;
 }
 
 
 
-     </style>
 
+ </style>
 
 
 <script src="calculadora.js"></script>
-<script>
 
 
-function insert(num)
-{
-    var numero = document.getElementById('resultado').innerHTML;
-    document.getElementById('resultado').innerHTML = numero + num;
-}
-function clean()
-{
-    document.getElementById('resultado').innerHTML = "";
-}
-function back()
-{
-    var resultado = document.getElementById('resultado').innerHTML;
-    document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1);
-}
-function calcular()
-{
-    var resultado = document.getElementById('resultado').innerHTML;
-    if(resultado)
-    {
-        document.getElementById('resultado').innerHTML = eval(resultado);
-    }
-    else
-    {
-        document.getElementById('resultado').innerHTML = "Nada..."
-    }
-}
-
-
-</script>
 
 
 
 </head>
 <body>
     <div class="fundo">
-        <h1>CALCULADORA SIMPLES</h1>
+        <h1>Hora Extra</h1>
         <div class="calculadora">
-            <h2>Calculadora digital online</i></h2>
+            <h2>Calculadora</i></h2>
             <p id="resultado"></p>
                 <table>                 
                     <tr>
@@ -141,6 +113,44 @@ function calcular()
                     </tr>
                 </table>
         </div>
-    </div>
+   
+
+ </div>
+
+<script>
+
+function insert(num)
+{
+    var numero = document.getElementById('resultado').innerHTML;
+    document.getElementById('resultado').innerHTML = numero + num;
+}
+function clean()
+{
+    document.getElementById('resultado').innerHTML = "";
+}
+function back()
+{
+    var resultado = document.getElementById('resultado').innerHTML;
+    document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1);
+}
+function calcular()
+{
+    var resultado = document.getElementById('resultado').innerHTML;
+    if(resultado)
+    {
+        document.getElementById('resultado').innerHTML = eval(resultado);
+    }
+    else
+    {
+        document.getElementById('resultado').innerHTML = "Nada..."
+    }
+}
+
+
+
+</script>
+
+
+
 </body>
 </html>
